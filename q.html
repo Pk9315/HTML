@@ -1,0 +1,43 @@
+
+
+<!-- mouseenter()
+
+<h1>-<div>
+
+
+
+ -->
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <style type="text/css">
+   #tt{
+    color: hotpink;
+    background-color: black;
+   }
+  </style>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function()
+   {
+$("#pp").mouseenter(function()
+{
+ $("#tt").text("Hello User? How r you??").show().fadeOut(4000)
+});
+
+$("#pp").mouseleave(function()
+{
+ $("#tt").text("byee byee User").show().fadeOut(6000)
+});
+   });
+  </script>
+  <title></title>
+ </head>
+ <body>
+  <h1 id="pp">Welcome EverYOne</h1>
+
+  <div id="tt"></div>
+ 
+ </body>
+ </html>
