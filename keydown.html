@@ -1,0 +1,29 @@
+<!-- keydown(),keyup()- 
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("input").keyup(function()
+				{
+					$("input").css("background-color","lightpink")
+$("input").css("color","black")
+				});
+
+$("input").keydown(function()
+{
+$("input").css("background-color","blue")
+$("input").css("color","red")
+
+});
+		});
+	</script>
+	<title></title>
+</head>
+<body>
+<input type="text">
+</body>
+</html>
